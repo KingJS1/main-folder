@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h4>DATA MODEL TYPE: CLASSIFICATION</h4>
+    <h1>
+      This data model has been trained using a RandomForestRegressor to attempt
+      to predict the class/label of data coming in. We will attempt to predict
+      the first type of a pokemon using it's stats, for example
+    </h1>
+
+    <ul>
+      {% for item in items %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

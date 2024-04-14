@@ -1,0 +1,1 @@
+This project allows you to either predict a Pokemon's first typing using it's stats and information through a classification model, or predict video games sales data using a regression model

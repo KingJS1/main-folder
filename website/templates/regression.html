@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>DATA MODEL TYPE: Regression</h1>
+    <h4>This data model has been trained using a RandomForestRegressor to attempt to predict the the amount of copies in the millions an Xbox game would sell based on the genre and publisher</h4>
+
+    <h3>Choose an option from data here to get a prediction...</h3>
+    <form action="">
+        <label>Publishers:</label>
+        <select name="option">
+            {% for pub in item1 %}
+                <option>{{pub}}</option>
+            {% endfor %}
+            <option></option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

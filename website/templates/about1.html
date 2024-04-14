@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>POKEMON DATA</title>
+  </head>
+  <body>
+    <h1>
+      <a href="https://www.kaggle.com/datasets/abcsds/pokemon"
+        >Source</a
+      >
+    </h1>
+    <h1>Features</h1>
+    <h4>
+      "Type 2" : Secondary typing of the Pokemon
+    </h4>
+    <h4>
+      "Total" : Sum of all stats added together
+    </h4>
+    <h4>
+      "HP" : Numeric HP Stat
+    </h4>
+    <h4>
+      "Attack" : Numeric Attack stat
+    </h4>
+    <h4>
+      "Defense" : Numeric Defense stat
+    </h4>
+    <h4>
+      "Sp. Atk" : Numeric Special Attack stat
+    </h4>
+    <h4>
+      "Sp. Def" : Numeric Special Defense stat
+    </h4>
+    <h4>
+      "Speed" : Numeric Speed stat
+    </h4>
+    <h4>
+      "Legendary" : Boolean value describing whether the pokemon is classified as legendary
+    </h4>
+
+    <h1>Sample</h1>
+    <h4>{Type 2, Total, HP, Attack, Defense, Sp. Atk,Sp. Def, Speed, Legendary}</h4>
+    {% for item in items %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </body>
+</html>
